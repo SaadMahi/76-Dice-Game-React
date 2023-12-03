@@ -46,7 +46,7 @@ const RollDiceUi = ({ shuffledNumber, onRollDice, setScore, setSelected }) => {
     <DiceContainer>
       <img
         onClick={onRollDice}
-        src={`../../public/images/dice/dice_${shuffledNumber}.png`}
+        src={`/images/dice/dice_${shuffledNumber}.png`}
       />
 
       <Content>

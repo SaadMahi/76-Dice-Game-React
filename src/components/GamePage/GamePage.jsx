@@ -27,11 +27,11 @@ const GamePage = () => {
   const [shuffledNumber, setShuffledNumber] = useState(1);
   const [selected, setSelected] = useState();
 
-  const shuffleDice = (min, max) => {
-    return Math.round(Math.random() * (max - min) + min);
+  const shuffleDice = () => {
+    return Math.round(Math.random() * (6 - 1) + 1);
   };
 
-  const rolledDice = Number(shuffleDice(1, 6));
+  const rolledDice = Number(shuffleDice());
 
   const [score, setScore] = useState(0);
 

@@ -50,7 +50,6 @@ const Home = ({ setStartGame }) => {
         <ButtonStart onClick={() => setStartGame((prev) => !prev)}>
           Play Now
         </ButtonStart>
-        {/* <Button variant='start'>Play Now</Button> */}
       </div>
     </Container>
   );
